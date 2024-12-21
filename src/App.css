@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css');
+
+
+body{
+  font-family: "Inter", serif;
+  font-size: 25px;
+  margin-top: 60px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-ab{
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+}
+
+.footer-ab{
+  text-align: center;
+  font-size: 20px;
+  justify-content: center;
+}
+
+.crescent{
+  font-size: 30px;
+}
+
+
+
+.logo{
+  width: 50px;
+  height: 50px;
+}
+
+nav ul{
+  justify-content:left;
+}
+
+.menu Button{
+  font-size: 35px;
+}
+
+.menu Button svg{
+  color: rgb(25, 135, 84);;
+}
+
+.menus-item svg{
+  font-size: 20px;
+  color: rgb(25, 135, 84);
+}
+
+.menus-item a{
+  text-decoration: none;
+  color: black;
+}
+
+.menus-item-1 svg{
+  font-size: 20px;
+  color: red;
+}
+
+.nav ul li a button{
+  color: white;
+  background: rgb(25, 135, 84);
+  text-decoration: none !important;
+  border: rgb(25, 135, 84);
+  border-radius: 10%;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 8px 15px;
+}
+
+.nav ul li a button:hover{
+  color: rgb(25, 135, 84);
+  background: white;
+}
+
+
+
+
+
+.card img{
+  width: 500px;
+  height: 700px !important;
+  
+}
+
+
+.product_card{
+  padding: 10px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slick-prev, .slick-next {
+  font-size: 40px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(25, 135, 84); /* Optional background */
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+
+footer {
+  background-color: white; /* Choose your preferred color */
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px black;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.footer-content p {
+  font-size: 14px;
+  color: rgb(25, 135, 84);
+}
+
+
+
+.social-icons a {
+  margin: 0 10px;
+  color: rgb(25, 135, 84); /* Adjust color to your theme */
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: rgb(25, 135, 84); /* Adjust hover color */
+}
+
+.social-icons button {
+  color: rgb(25, 135, 84);
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.social-icons button:hover {
+  background-color: rgb(25, 135, 84);
+}
+
+.social-icons button svg{
+  color: rgb(25, 135, 84);
+  width: 30px;
+  height: 30px;
+}
+
+.social-icons button:hover svg{
+  color: white;
+}
+
+
+.headerSearch{
+  width: 60%;
+  height: 60px;
+  background: whitesmoke;
+  padding: 10px;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid rgb(233, 224, 224);
+  justify-self: center;
+}
+
+.headerSearch input{
+  background: transparent;
+  outline: none;
+  font-size: 18px;
+  color: black;
+  width: 100%;
+  height: 40px;
+  border: 0px;
+  padding: 0px 20px;
+}
+
+
+.headerSearch input::-webkit-input-placeholder{
+  color: rgb(158, 155, 155)
+}
+
+
+.headerSearch button{
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  z-index: 100;
+  min-width: 40px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: rgb(25, 135, 84);
+}
+
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures it stays above other elements */
+  background-color: #fff; /* Optional: Background color */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+
+.page{
+  padding-top: 150px;
+}
+
+
+
+@media (max-width: 768px) {
+  .page {
+      padding-top: 240px; 
+  }
+}
+
+
+
+@media (max-width: 327px) {
+  .page {
+      padding-top: 300px; 
+  }
+}
+
+@media (max-width: 234px) {
+  .page {
+      padding-top: 400px; 
+  }
+}
+
+@media (max-width: 450px) {
+  .headerSearch {
+      width: 80%;
+  }
+}
+
+
+@media (max-width: 350px) {
+  .headerSearch {
+      width: 100%;
+  }
+}
+
+.rest-cont img{
+  width: 100%;
+  height: 400px;
+
+}
+
+.rest-cont{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: rgb(25, 135, 84);
+}
+
+.banner{
+  padding-top: 55px;
+  padding-bottom: 30px;
+}
+
+.home-product{
+  padding-left: 30px;
+}
+
+
+.restimg {
+  width: 100%;
+  object-fit: cover; 
+}
+
+.rest1{
+  padding-top: 54px;
+  padding-bottom: 40px;
+}
+
+.rest2{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.rest3{
+  padding-top: 54px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+}
+
+
+
+
+img{
+  width: 150px;
+  height: 150px;
+}
+
+.img2 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Adjust this based on your requirement */
+}
+
+.modaltext{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.restname{
+  color: rgb(25, 135, 84);
+  text-align: center;
+  background: white;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-size: xx-large;
+  font-weight: 900;
+  text-decoration: double;
+}
+
+
+input{
+  width: 50px;
+}
+
+
+.delete{
+  font-size: 30px;
+}
+
+.delete svg{
+  color: red;
+}
+
+.delete svg:hover{
+  font-size: 40px;
+}
+
+
+.check2{
+  padding-left: 150px;
+}
+
+.check3:hover{
+  color: rgb(25, 135, 84) !important;
+  background: white !important;
+}
+
+.sign{
+  text-decoration: none;
+  color: white;
+}
+
+
+.sign2{
+  text-decoration: none;
+  color: rgb(25, 135, 84);
+}
+
+
+
+
