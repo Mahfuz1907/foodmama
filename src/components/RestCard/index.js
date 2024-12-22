@@ -1,5 +1,6 @@
 import React from 'react';
 import rest1 from '../../assets/image/rest1.png'
+import { Link } from 'react-router-dom';
 
 const RestCard = () => {
   return (
@@ -9,7 +10,7 @@ const RestCard = () => {
   <div classname="card-body">
     <h4 classname="card-title">Arabian Kitchen</h4>
     <p className='card-text'>Feel the taste.</p>
-    <a href="/restora" className='btn btn-success'>Visit</a>
+    <Link to={'/restora'}><button className='btn btn-success'>Visit</button></Link>
   </div>
 
         </div>
